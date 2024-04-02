@@ -35,7 +35,7 @@ public class ReadFile {
 				while (ce.hasNext()) {
 					Cell value = ce.next();
 					if (value.getStringCellValue().equalsIgnoreCase("TestCases")) {
-						coloumn = k;
+						coloumn = k; 
 					}
 					k++;
 				}
